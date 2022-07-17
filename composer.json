@@ -1,0 +1,28 @@
+{
+    "name": "swoopaholic/framework-bundle",
+    "type": "library",
+    "description": "Swoopaholic FrameworkBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danny Dörfel",
+            "email": "danny.dorfel@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://nvs-satis.nvsotap.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "swoopaholic/components": "dev-master",
+        "swoopaholic/pagerfanta-bridge": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Swoopaholic\\Bundle\\FrameworkBundle\\": "" }
+    },
+    "target-dir": "Swoopaholic/Bundle/FrameworkBundle",
+    "minimum-stability": "dev"
+}
