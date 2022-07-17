@@ -1,7 +1,7 @@
 {
-    "name": "swoopaholic/framework-bundle",
+    "name": "nikuniku/framework-bundle",
     "type": "library",
-    "description": "Swoopaholic FrameworkBundle",
+    "description": "nikuniku FrameworkBundle",
     "license": "MIT",
     "authors": [
         {
@@ -21,8 +21,8 @@
         "swoopaholic/pagerfanta-bridge": "dev-master"
     },
     "autoload": {
-        "psr-0": { "Swoopaholic\\Bundle\\FrameworkBundle\\": "" }
+        "psr-0": { "nikuniku\\Bundle\\FrameworkBundle\\": "" }
     },
-    "target-dir": "Swoopaholic/Bundle/FrameworkBundle",
+    "target-dir": "nikuniku/Bundle/FrameworkBundle",
     "minimum-stability": "dev"
 }
