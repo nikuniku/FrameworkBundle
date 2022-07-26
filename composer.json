@@ -18,7 +18,7 @@
     "require": {
         "php": ">=5.3.3",
         "swoopaholic/components": "0.1.*@dev",
-        "swoopaholic/pagerfanta-bridge": "dev-master"
+        "swoopaholic/pagerfanta-bridge": "1.0.1"
     },
     "autoload": {
         "psr-0": { "Swoopaholic\\Bundle\\FrameworkBundle\\": "" }
