@@ -21,8 +21,8 @@
         "swoopaholic/pagerfanta-bridge": "dev-master"
     },
     "autoload": {
-        "psr-0": { "nikuniku\\Bundle\\FrameworkBundle\\": "" }
+        "psr-0": { "Swoopaholic\\Bundle\\FrameworkBundle\\": "" }
     },
-    "target-dir": "nikuniku/Bundle/FrameworkBundle",
+    "target-dir": "Swoopaholic/Bundle/FrameworkBundle",
     "minimum-stability": "dev"
 }
