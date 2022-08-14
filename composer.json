@@ -1,7 +1,7 @@
 {
-    "name": "WezpExtension/framework-bundle",
+    "name": "wezpextension/framework-bundle",
     "type": "library",
-    "description": "WezpExtension FrameworkBundle",
+    "description": "wezpextension FrameworkBundle",
     "license": "MIT",
     "authors": [
         {
@@ -17,12 +17,12 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "WezpExtension/components": "0.1.*@dev",
-        "WezpExtension/pagerfanta-bridge": "dev-master"
+        "wezpextension/components": "0.1.*@dev",
+        "wezpextension/pagerfanta-bridge": "dev-master"
     },
     "autoload": {
-        "psr-0": { "WezpExtension\\Bundle\\FrameworkBundle\\": "" }
+        "psr-0": { "wezpextension\\Bundle\\FrameworkBundle\\": "" }
     },
-    "target-dir": "WezpExtension/Bundle/FrameworkBundle",
+    "target-dir": "wezpextension/Bundle/FrameworkBundle",
     "minimum-stability": "dev"
 }
